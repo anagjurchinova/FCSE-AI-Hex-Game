@@ -3,7 +3,7 @@ from abc import abstractmethod
 
 class Piece:
     def __init__(self, name):
-        self.name = name # (color + piece type) ex. WhiteBeetle1 ; queen will be Queen
+        self.name = name # (color + piece type) ex. WhiteBeetle1 ; BlackQueen
         self.position = None
         self.color = 'white' if 'White' in self.name else 'black'
 
